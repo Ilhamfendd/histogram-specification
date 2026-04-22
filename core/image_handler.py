@@ -1,5 +1,5 @@
 import cv2
-from PIL import Image, ImageTk
+from PIL import Image
 
 
 class ImageHandler:
