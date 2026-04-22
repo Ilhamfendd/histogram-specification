@@ -72,7 +72,7 @@ if process_btn:
         progress.progress(60)
         histogram_processor = HistogramProcessor()
         img_result_bgr, gray_result, hist_inputs, hist_outputs = \
-            histogram_processor.histogram_spesifikasi(img_input, img_reference, use_rgb=False)
+            histogram_processor.histogram_spesifikasi(img_input, img_reference, use_rgb=True)
         
         progress.progress(100)
         st.session_state.results = {
